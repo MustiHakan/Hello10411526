@@ -6,7 +6,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".HelloWorld">
+    tools:context="hello10411526.setup.mprog.nl.hello10411526.nextscherm">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -15,9 +15,9 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/volgendev"
+            android:text="@string/vorigedev"
             android:layout_centerInParent="true"
-            android:onClick="volgendeview"/>
+            android:onClick="vorigeview"/>
     </RelativeLayout>
 
 </LinearLayout>

@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">First try</string>
+    <string name="app_name">Musti App</string>
     <string name="hello_world">Just testing</string>
     <string name="action_settings">Nothing to see here</string>
+    <string name="volgendev">Next View</string>
+    <string name="title_activity_nextscherm">Second Screen</string>
+    <string name="vorigedev">Previous View</string>
 
 </resources>

@@ -4,27 +4,27 @@
 
 package hello10411526.setup.mprog.nl.hello10411526;
 
-import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.content.Intent;
 
 
-public class HelloWorld extends ActionBarActivity {
+public class nextscherm extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hello_world);
+        setContentView(R.layout.activity_nextscherm);
     }
 
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.hello_world, menu);
+        getMenuInflater().inflate(R.menu.nextscherm, menu);
         return true;
     }
 
@@ -39,9 +39,8 @@ public class HelloWorld extends ActionBarActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
-    public void volgendeview(View view) {
-        Intent intent = new Intent(this, nextscherm.class);
+    public void vorigeview(View view) {
+        Intent intent = new Intent(this, HelloWorld.class);
         startActivity(intent);
     }
 }
