@@ -1,7 +1,3 @@
-// Musti Aksoy
-// 10411526
-// aksoy.m.h@gmail.com
-
 package hello10411526.setup.mprog.nl.hello10411526;
 
 import android.support.v7.app.ActionBarActivity;
