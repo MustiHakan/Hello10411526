@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Eerste App</string>
+    <string name="hello_world">Eventjes maar kijken of ik Hello World kan zeggen</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
